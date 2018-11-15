@@ -6,10 +6,27 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		9D85C6DB2121DAFC003A05CE /* turtle1.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = turtle1.py; sourceTree = "<group>"; };
+		9D85C6DC21225349003A05CE /* turtle3.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = turtle3.py; sourceTree = "<group>"; };
+		9D85C6DD212255A8003A05CE /* wareki.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; lineEnding = 0; path = wareki.py; sourceTree = "<group>"; };
+		9D85C6DE21244A9F003A05CE /* turtle5.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = turtle5.py; sourceTree = "<group>"; };
+		9D85C6DF21244C0A003A05CE /* turtle6.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = turtle6.py; sourceTree = "<group>"; };
+		9D870508219BFFBB007F4574 /* matplot.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = matplot.py; sourceTree = "<group>"; };
+		9D87F8AB219E289B0064BA0B /* OpticalCharacterRecognition.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = OpticalCharacterRecognition.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		9D85C6D02121DAAD003A05CE = {
 			isa = PBXGroup;
 			children = (
+				9D87F8AB219E289B0064BA0B /* OpticalCharacterRecognition.py */,
+				9D870508219BFFBB007F4574 /* matplot.py */,
+				9D85C6DF21244C0A003A05CE /* turtle6.py */,
+				9D85C6DE21244A9F003A05CE /* turtle5.py */,
+				9D85C6DD212255A8003A05CE /* wareki.py */,
+				9D85C6DC21225349003A05CE /* turtle3.py */,
+				9D85C6DB2121DAFC003A05CE /* turtle1.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -22,7 +39,8 @@
 			buildConfigurationList = 9D85C6D82121DAAD003A05CE /* Build configuration list for PBXLegacyTarget "Python" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/bin/make;
+			buildToolPath = /usr/bin/python;
+			buildWorkingDirectory = "";
 			dependencies = (
 			);
 			name = Python;
