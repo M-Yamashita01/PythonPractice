@@ -35,6 +35,7 @@
 			<key>uniqueIdentifier</key>
 			<string>A5053723-9220-47BC-9ED4-22A63BB6B806</string>
 		</dict>
+<<<<<<< HEAD
 		<key>B6214F96-4567-4AAB-B99A-BD83038CA8E3</key>
 		<dict>
 			<key>className</key>
@@ -64,6 +65,8 @@
 			<key>uniqueIdentifier</key>
 			<string>B6214F96-4567-4AAB-B99A-BD83038CA8E3</string>
 		</dict>
+=======
+>>>>>>> origin/master
 	</dict>
 </dict>
 </plist>
